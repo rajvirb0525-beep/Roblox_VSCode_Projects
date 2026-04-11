@@ -1,6 +1,0 @@
-{
-    "robloxLsp.diagnostics.disable": [
-        "undefined-type"
-    ],
-    "luau-lsp.plugin.enabled": true
-}
