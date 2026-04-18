@@ -1,6 +1,6 @@
 --!strict
 local RigModule = {}
-local TypesModule = require(script.Parent.PredefinedTypes)
+local Types = require(script.Parent:WaitForChild("PredefinedTypes"))
 -- // I did this because then I will never 
 -- have to repeat these across projects //
 
@@ -10,7 +10,7 @@ local TypesModule = require(script.Parent.PredefinedTypes)
 -- the BodyParts table //
 
 
-export type R6BodyParts = TypesModule.R6Rig
+export type R6BodyParts = Types.R6Rig
 
 function RigModule.GetR6BodyParts(character) : R6BodyParts
 	local BodyParts = {
